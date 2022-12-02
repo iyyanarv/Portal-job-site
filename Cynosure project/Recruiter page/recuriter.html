@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"  href="../images/logo.cynosure.png">
+    <link rel="stylesheet" href="./recruiter.css">
+    <link rel="stylesheet" href="./recruiter.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <title>Recruiter-page</title>
+</head>
+<body>
+                 <!-- -------------------------------------------------------------------------navbar start's from here---------------------- -->
+                 <div class="container-fluid-sm-md sticky-top bg-info" id="nav_shadow">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+                        <div class="container-fluid">
+                            
+                                <nav class="navbar navbar-light bg-light">
+                                    <div class="container">
+                                      <form class="d-flex container-fluid col">
+                                        <a class="navbar-brand" href="#">
+                                            <img src="../images/logo.cynosure.png" alt="" width="100" height="50">
+                                          </a>
+                                        
+                                      </form>
+                                    </div>
+                                    
+                                  </nav>
+                            
+                          
+                                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button>
+                          
+                          <div class="container-fluid collapse navbar-collapse mx-auto" id="navbarScroll">
+                            <ul class=" container-fluid navbar-nav me-auto my-2 my-lg-0 ms-auto row " style="--bs-scroll-height: 100px;">
+                              <li class="nav-item col-3">
+                                <a class="nav-link active" id="home_hover" aria-current="page" href="#">FOR STARTUPS & SMES</a>
+                              </li>
+                              <li class="nav-item col-2">
+                                <a class="nav-link active" id="home_hover" href="#">JOB SEEKER</a>
+                              </li>
+                              <li class="nav-item col-2 dropdown ">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 WHATS NEW
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                  <li><a class="dropdown-item" href="#">Front-end developer</a></li>
+                                  <li><a class="dropdown-item" href="#">Full stack developer</a></li>
+                                  <li><a class="dropdown-item" href="#">UI/UX Designer</a></li>
+                                  <li><a class="dropdown-item" href="#">AWS</a></li>
+                                  <li><a class="dropdown-item" href="#">Application developer</a></li>
+                                  <li><a class="dropdown-item" href="#">Data scientest</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">other's</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item col-2 ">
+                                <a class="nav-link active" id="home_hover" href="file:///C:/Users/ELCOT/Desktop/Cynosure%20project/About%20Us/aboutcynosure.html" aria-disabled="true">ABOUT US</a>
+                              </li>
+                              <li class=" col-3">
+                                <a href="" class="btn btn-outline-primary" style="position: relative; width: 150px;">Recuriter Login</a>
+                              </li>
+                            </ul>
+                            
+                          </div>
+                          <!-- <a href="" class="btn btn-outline-primary mx-3">Login</a>
+                          <a href="" class="btn btn-outline-primary">Register</a> -->
+                          
+                        </div>
+                        
+                      </nav>
+                    </div>
+                    <hr style="margin-top: 0; box-shadow: 1px 2px 1px 2px gray;">
+
+                        <!-- ---------------------------------------------------------------------------navbar end's from here---------------------- -->
+
+                        <div class="container">
+                          <div class="row" style="box-shadow: 1px 2px 1px 2px grey">
+                            <div class="col my-5" style="margin-left: 40px;">
+                             
+                              <img src="./images/desktop-banner_1.webp" class="img-thumbnail" alt="..."> 
+
+                              <div class="row my-5">
+                                <div class="col">
+                              <button type="button" class="btn btn-warning"><a href="" class="text-decoration-none"> <b style="padding: 10px; color: white;"> For Startups & SME </b> </a></button>
+                              </div>
+                              <div class="col">
+                              <button type="button" class="btn btn-primary"><a href="" class="text-decoration-none"> <b style="padding: 10px; color: white;"> Post a Job for Almost Free </b> </a></button>
+                              </div>
+                              </div>
+
+                              
+                            </div>
+                            <div class="col">
+
+                              
+                              <form class="was-validated" style="margin-left: 115px;">
+                                <h2>REQUEST HERE FIRST</h2>
+                                <div class="col-md-4">
+                                    <label for="validationServer01" class="form-label">Name</label>
+                                    <input type="text" class="form-control is-valid" id="validationServer01" value="" required  style="width: 300px;">
+                                    <div class="invalid-feedback">
+                                      Enter Your Name
+                                    </div> 
+                                  </div> 
+                                  
+                                
+                                  <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <input type="email" class="form-control is-valid" id="inputEmail4" required style="width: 300px;">
+                                    <div class="invalid-feedback">
+                                        Enter your mail-ID
+                                      </div>
+                                  </div> 
+                                  
+                                  <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Mobile No</label>
+                                    <input type="" pattern="[1234567890]{10}" class="form-control is-valid" placeholder="+91" id="inputEmail4" required style="width: 300px;">
+                                    <div class="invalid-feedback">
+                                        Enter your Mobile Number Should contains 10 digits
+                                      </div>
+                                  </div>
+
+                                  
+                                  
+                                   
+                              
+                                <div class="mb-3">
+                                  <select class="form-select" required aria-label="select example" style="width: 300px;">
+                                    <option value="">Select</option>
+                                    <option value="1">Company</option>
+                                    <option value="2">Consultant</option>
+                                    <option value="3">MSME</option>
+                                    
+                                  </select>
+                                  <div class="invalid-feedback">Select your gender please</div>
+                                </div> 
+                              
+                                <div class="mb-3">
+                                  <button class="btn btn-primary" type="submit" >Register Now</button>
+                                </div>
+                              </form>
+                              
+                            </div>
+                            
+                          </div>
+                        </div>
+                       
+                        <h1 class="text-center my-5">Top Companies Hiring on Besant Tech Solution</h1>
+
+                        <hr>
+
+                        <div class="col">
+                          
+                          <div class="container my-5">
+                              <div class="row">
+                                <div class="col">
+                                  <img src="./MNC company LOGO/Accenture.png" class="img-thumbnail" alt="...">
+                                </div>
+                                <div class="col">
+                                  <img src="./MNC company LOGO/border IT.jpg" class="img-thumbnail" alt="...">
+                                </div>
+                                <div class="col">
+                                  <img src="./MNC company LOGO/company logo.png" class="img-thumbnail" alt="...">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="container my-3">
+                              <div class="row">
+                                <div class="col">
+                                  <img src="./MNC company LOGO/computer tech.jpg" class="img-thumbnail" alt="...">
+                                </div>
+                                <div class="col">
+                                  <img src="./MNC company LOGO/corporate tagline.jpg" class="img-thumbnail" alt="...">
+                                </div>
+                                <div class="col">
+                                  <img src="./MNC company LOGO/TCS.jpg" class="img-thumbnail" alt="..." style="height: 120px;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="container my-3">
+                              <div class="row">
+                                <div class="col">
+                                  <img src="./MNC company LOGO/digital-matrix-logo-design.jpg" class="img-thumbnail" alt="...">
+                                </div>
+                                <div class="col">
+                                  <img src="./MNC company LOGO/GlobalC4.webp" class="img-thumbnail" alt="...">
+                                </div>
+                                <div class="col">
+                                  <img src="./MNC company LOGO/HCL img.png" class="img-thumbnail" alt="...">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="container my-3">
+                              <div class="row">
+                                <div class="col">
+                                  <img src="./MNC company LOGO/WIPRO Limited 2.jpg" class="img-thumbnail" alt="...">
+                                </div>
+                                <div class="col">
+                                  <img src="./MNC company LOGO/zoho-logo.png" class="img-thumbnail" alt="...">
+                                </div>
+                                <div class="col">
+                                  <img src="./MNC company LOGO/Infosys_logo.svg im1.png" class="img-thumbnail" alt="...">
+                                </div>
+                              </div>
+                            </div>
+                        <!-- -----------------------------------------------------------Our Services start's---------------- -->
+
+                            <h1 class="text-center my-5">Our Services</h1>
+                                                                                        <!-- ------service box sart - 1----- -->
+                            <hr>
+                            <div class="container mx-auto row gap-5">
+                              <div class="card text-center col" style="width: 18rem;">
+                                <img src="./Our services image/job search.img.png" class="card-img-top mx-auto my-3" alt="..." style="width: 70px; height: 70px;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Job Posting</h5>
+                                  <p class="card-text">Reach out to the best of talents across the nation.</p>
+                                  
+                                </div>
+                              </div>
+                              <div class="card text-center col" style="width: 18rem;">
+                                <img src="./Our services image/Smart search.img.png" class="card-img-top mx-auto my-3" alt="..." style="width: 70px; height: 70px;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Smart Search</h5>
+                                  <p class="card-text">Access database and find relevant candidates with India’s most advanced keyword-search engine.</p>
+                                  
+                                </div>
+                              </div>
+                              <div class="card text-center col" style="width: 18rem;">
+                                <img src="./Our services image/Assited hiring.png" class="card-img-top mx-auto my-3" alt="..." style="width: 70px; height: 70px;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Assisted Hiring</h5>
+                                  <p class="card-text">Get quality leads for your requirements and fill the job openings hassle free.</p>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                                                                                            <!-- ------service box starts - 2----- -->
+
+                             <div class="container mx-auto row gap-5 my-5">
+                              <div class="card text-center col" style="width: 18rem;">
+                                <img src="./Our services image/job search.img.png" class="card-img-top mx-auto my-3" alt="..." style="width: 70px; height: 70px;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Job Posting</h5>
+                                  <p class="card-text">Reach out to the best of talents across the nation.</p>
+                                  
+                                </div>
+                              </div>
+                              <div class="card text-center col" style="width: 18rem;">
+                                <img src="./Our services image/Smart search.img.png" class="card-img-top mx-auto my-3" alt="..." style="width: 70px; height: 70px;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Smart Search</h5>
+                                  <p class="card-text">Access database and find relevant candidates with India’s most advanced keyword-search engine.</p>
+                                  
+                                </div>
+                              </div>
+                              <div class="card text-center col" style="width: 18rem;">
+                                <img src="./Our services image/Assited hiring.png" class="card-img-top mx-auto my-3" alt="..." style="width: 70px; height: 70px;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Assisted Hiring</h5>
+                                  <p class="card-text">Get quality leads for your requirements and fill the job openings hassle free.</p>
+                                  
+                                </div>
+                              </div>
+                            </div>    
+                                                                     <!-- ----------------service stars -2---------      -->
+                            
+                            
+                        <!-- -----------------------------------------------------------Our Services end's---------------- -->
+          <!-- <h1 class="text-center">Mint + Besant Talent Insights</h1>
+                        <div class="my-5 container" style="margin-left: 120px">
+                          <img src="https://recruiter.shine.com/_next/image?url=https%3A%2F%2Fstatic2.shine.com%2Fr%2Fm%2Ffeature_images%2Fnon_logged_in_q2.png&w=1920&q=75" alt="">
+                          <img src="https://recruiter.shine.com/_next/image?url=https%3A%2F%2Fstatic2.shine.com%2Fr%2Fm%2Ffeature_images%2Fq1_non_logged_in.png&w=1920&q=75" alt="">
+                        </div> -->
+  <div class="row container-fluid bg-primary">
+      <div class="col p-2 text-center">
+          <h1 style="color: white; font-size: 60px;">10K+</h1>
+          <p style="color: white; font-size: 20px;">Jobs are posted everyday</p>
+      </div>
+      <div class="col p-2 text-center">
+          <h1 style="color: white; font-size: 60px;">52K+</h1>
+          <p style="color: white; font-size: 20px;">Active Recuriters</p>
+      </div>
+      <div class="col p-2 text-center">
+          <h1 style="color: white; font-size: 60px;">103K+</h1>
+          <p style="color: white; font-size: 20px;">Job applications are submitted daily</p>
+      </div>
+  </div>       
+   <!-- -------------------------------------------------------------------------main theme starts here----------- -->
+<div class="row container-fluid my-5">
+  <div class="col">
+    <h1 style="font-size: 50px;"> <b> Hire from the Pool of </b></h1>
+    <h1 style="font-size: 50px; color: orange;"> <b> 45M+ Candidates </b> </h1>
+    <p class="my-5" style="font-size: 24px;">Our upgraded ML powered search engine reduces your efforts manifold in your talent hunt. You can also outsource your hiring needs to our dedicated team of professionals who will perform the initial screening of the candidates.</p>
+  </div>
+  <div class="col">
+    <img src="./images/main theme.img/theme image - 1.webp" class="rounded float-end" alt="...">
+  </div>
+</div>
+  <hr>
+                                               <!-- ------------theme two---- -->
+<div class="row container-fluid my-5">
+  <div class="col">
+    <img src="./images/main theme.img/engage_talent.webp" class="rounded float-end" alt="...">
+     </div>
+  <div class="col">
+    <h1 style="font-size: 50px;"> <b> <span style="font-size: 50px; color: orange;"> Engade </span> with Talent Pool </b></h1>
+   
+    <p class="my-5" style="font-size: 24px;">Reach out to the skilled candidates and fulfill your recruitment needs faster. Extend your branded assessments to the potential candidates and streamline your recruitment process</p>
+
+  </div>
+</div>
+  <hr>
+                                               <!-- ------------theme three---------- -->
+                                               <div class="row container-fluid my-5">
+                                                 <div class="col">
+                                                  <h1 style="font-size: 50px;"> <b> Build a <span style="font-size: 50px; color: orange;">Strong Brand</span> </b></h1>
+                                                  <h1 > <b> with Besant  </b> </h1>
+                                                  <p class="my-5" style="font-size: 24px;">Attract talent with your unique brand offerings and reach out to masses. Become a preferred place for work among the candidate community</p>
+                                                </div>
+                                                <div class="col">
+                                                  <img src="./images/main theme.img/strong_brand.webp" class="rounded float-end" alt="...">
+                                                </div>
+                                              </div>
+                                              <hr>
+
+                                              <div class="row container-fluid bg-primary my-5">
+                                                <div class="col-3">
+                                                  <img src="images/main theme.img/full-fill-hiring.webp" class="rounded float-end" alt="...">
+                                                </div>
+                                                <div class="col-6">
+                                                      <h1 style="font-size: 40px; color: white" class="my-5">Fulfill all your hiring needs NOW!</h1>
+                                                </div>
+                                                <div class="col-3">
+                                                  <button type="button" class="btn btn-warning my-5">Contact Us</button>
+                                                </div>
+                                              </div>
+                                                                                       
+<div>
+     <p style="font-size: 40px;" class="text-center"> <b> <span style="color: orange;"> Shine Outplacement Services : </span> Ensure A Smooth Job <br> Transition For Your Employees Impacted By Layoffs </b> </p>
+</div>
+
+<h3 class="text-center"> <b> Benefits For You</b></h3>
+<hr>
+
+<div class=" container-fluid row" style="margin-top: 80px;">
+  <div class="col-4">
+    
+    <div class="row">
+      <div class="col-3">
+        <img src="./images/outplacement service image/wallet.png" class="rounded mx-auto d-block" alt="..." style="width: 70px; height: 70px">
+      </div>
+      <div class="col-9">
+        <h4>Free Of Cost</h4>
+        <p>No fees or hidden costs are associated with the service. We will assist your employees in these difficult times and help them get placed.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-3">
+        <img src="./images/outplacement service image/prodectivity img 2.png" class="rounded mx-auto d-block" alt="..." style="width: 70px; height: 70px">
+      </div>
+      <div class="col-9">
+        <h4>Improves Retention And Productivity</h4>
+        <p>It will also convey a favourable message to your current staff, which will work to your advantage.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-3">
+        <img src="./images/outplacement service image/immediate.png" class="rounded mx-auto d-block" alt="..." style="width: 70px; height: 70px">
+      </div>
+      <div class="col-9">
+        <h4>Immediate Joiner</h4>
+        <p>It will also convey a favourable message to your current staff, which will work to your advantage.</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-4">
+    <img src="./images/main theme.img/may be background outplacement.webp" class="rounded mx-auto d-block" alt="...">
+  </div>
+  <div class="col-4">
+
+    <div class="row">
+      <div class="col-3">
+        <img src="./images/outplacement service image/reputation.png" class="rounded mx-auto d-block" alt="..." style="width: 70px; height: 70px">
+      </div>
+      <div class="col-9">
+        <h4>Reputation Management</h4>
+        <p>Your concern for your former employees will be reinforced by the SOS campaign.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-3">
+        <img src="./images/outplacement service image/unemployment.png" class="rounded mx-auto d-block" alt="..." style="width: 70px; height: 70px">
+      </div>
+      <div class="col-9">
+        <h4>Reduced Cost Of Unemployment Suits</h4>
+        <p>Seeking outplacement services can reduce the risk of wrongful termination lawsuits.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-3 my-5">
+        <img src="./images/outplacement service image/loudspeaker.png" class="rounded mx-auto d-block" alt="..." style="width: 70px; height: 70px">
+      </div>
+      <div class="col-9">
+        <h4>Promotion</h4>
+        <p>Your employees’ profiles will be promoted to 50K+ recruitment consultants PAN India.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<hr>
+<div class="row container-fluid">
+  <div class="col-3">
+    <img src="../besant tech solution logo.jpg" class="img-thumbnail justify-content-center" alt="..." style="height: 70px;">
+    <h4>Besant Tech solution</h4>
+  </div>
+  <div class="col-8 text-center">
+    <a href="" class="p-4 text-decoration-none"><b>Help Center</b></a>
+    <a href="file:///C:/Users/ELCOT/Desktop/Cynosure%20project/About%20Us/aboutcynosure.html"target=_blank class="p-4 text-decoration-none"><b>About Us</b></a>
+    <a href="file:///C:/Users/ELCOT/Desktop/Cynosure%20project/Contact%20us%20form/contactform.html"target=_blank class="p-4 text-decoration-none"><b>Contact Us</b></a>
+    <a href="" class="p-4 text-decoration-none"><b>Terms & Condition</b></a>
+    <a href="" class="p-4 text-decoration-none"><b>Privacy Policy</b></a>
+    <hr>
+    <p class="text-center">If you are looking for any information, please feel free to contact us. We will be glad to help.</p>
+  </div>
+  <div class="col-1"></div>
+</div>
+
+<div>
+by/  <br>
+  iyyanar v
+</div>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+                
+</body>
+</html>

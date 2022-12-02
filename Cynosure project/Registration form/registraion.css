@@ -1,0 +1,13 @@
+#nav_shadow{
+    border-bottom: 2px solid rgb(187, 177, 177);
+}
+#home_hover:hover{
+border-bottom: 3px solid blue;
+transition: 1ms;
+}
+/* #registerform input{
+    margin-top: 30px;
+} */
+/* #overalldiv{
+   box-shadow: 1px 1px 1px 1px gray;
+} */

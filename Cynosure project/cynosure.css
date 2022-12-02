@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+#nav_shadow{
+    border-bottom: 2px solid rgb(187, 177, 177);
+}
+#home_hover:hover{
+border-bottom: 3px solid blue;
+transition: 1ms;
+}
+#carosel{
+    margin: auto;
+    width: 1300px;
+    height:  300px;
+}
+#pilround:hover{
+    background-color: rgb(33, 155, 33);
+    box-shadow: 1px 1px 1px 1px grey;
+    
+    
+    
+}
+#pilround{
+    background-color: rgb(165, 155, 155);
+    text-shadow: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    width: 400;
+}
+#pilround a{
+    text-decoration: none;
+    color: black;
+}
+/* #pliround{
+    display: none;
+} */
+#second_navbar a{
+   color: black;
+}
+#second_navbar:hover{
+
+    background-color: #3af899;
+}
+#second_navbar a:hover{
+    color: rgb(12, 28, 247);
+}
+/* #assguiddream{
+    width: 200px;
+    height: 200px;
+} */
+#jobborder{
+   box-shadow: 1px 1px 1px 1px grey;
+}
